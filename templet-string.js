@@ -8,7 +8,8 @@
 // ```````(backtick)
 const poem = `Roses are red
 Violets are blue`
-console.log(poem);
+console.log(poem);// output: Roses are red
+// Violets are blue
 
 function sum(num1, num2) {
     const result = num1 + num2;

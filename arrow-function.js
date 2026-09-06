@@ -23,7 +23,8 @@ const multilyResult = multiply(5, 10);
 console.log(multilyResult); // output: 50
 
 
-// muklti line parameter arrow function
+
+//  muklti line parameter arrow function
 const add3 = (num1, num2) => {
     const sum = num1 + num2;
     return sum;

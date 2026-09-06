@@ -3,7 +3,7 @@ for (const num of numbers) {
     console.log(num);
 }
 
-// ---------
+// -----------
 const employee = {
     name: 'John Doe',
     age: 30,
@@ -12,5 +12,5 @@ const employee = {
 }
 for (const key in employee) {
     // console.log(key) // output: name, age, position, department
-    console.log(key, employee[key]);
+    console.log(key, employee[key]);// output: name John Doe, age 30, position Software Engineer, department IT
 }

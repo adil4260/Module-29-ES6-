@@ -1,10 +1,10 @@
 const numbers = [1, 2, 3, 4, 5];
-console.log(numbers);
-console.log(...numbers);
+console.log(numbers); // output: [1, 2, 3, 4, 5]
+console.log(...numbers); // output: 1 2 3 4 5
 
 // const max = Math.max(66, 77, 99, 100, 200, 300);
 const max = Math.max(...numbers);
-console.log(max)
+console.log(max) // output: 5
 
 // const first = [1, 2, 3, 4, 5];
 // const second = first;

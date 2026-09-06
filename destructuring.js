@@ -16,4 +16,4 @@ const { name } = device
 // --------Array destructuring---------------------//
 const numbers = [21, 6562, 300, 11, 125];
 const [first, second, third, fourth, fifth] = numbers;
-console.log(first) // output: 21
+console.log(first)  // output: 21
