@@ -2,15 +2,14 @@ const product = {
     name: 'laptop', price: 45000, color: 'silver', storage: '1TB'
 }
 const pricee = product.price;
+console.log(pricee)
 
-
-
-//-----------Object destructuring---------------------//
+//------------------Object destructuring---------------------//
 const { price, quentity, tax = 75 } = { price: 100, quentity: 2 };
 console.log(price, quentity, tax)
 
-const device = { name: 'laptop', price: 45000, color: 'silver', storage: '1TB' }
-const { name } = device
+// const device = { name: 'laptop', price: 45000, color: 'silver', storage: '1TB' }
+// const { name } = device
 
 
 // --------Array destructuring---------------------//

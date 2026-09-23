@@ -4,6 +4,7 @@ const employee = {
     position: 'Software Engineer',
     department: 'IT'
 }
+
 Object.freeze(employee);
 delete employee.age;
 // employee.age = 35;

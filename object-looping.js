@@ -3,7 +3,7 @@ for (const num of numbers) {
     console.log(num);
 }
 
-// -----------
+// -----------------------
 const employee = {
     name: 'John Doe',
     age: 30,

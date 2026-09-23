@@ -4,7 +4,6 @@ const employee = {
     position: 'Software Engineer',
     department: 'IT'
 }
-
 const key = Object.keys(employee);
 const value = Object.values(employee);
 const entries = Object.entries(employee);
